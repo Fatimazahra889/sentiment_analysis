@@ -1,0 +1,59 @@
+/* Exemple de CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.no-data-message {
+    color: #666;
+    text-align: center;
+    font-style: italic;
+}
+
+.graph-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.graph-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.graph-card h3 {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.graph-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Couleurs spécifiques pour chaque sentiment */
+.positive {
+    border-bottom: 4px solid #4CAF50; /* Vert pour positif */
+}
+
+.neutral {
+    border-bottom: 4px solid #9E9E9E; /* Gris pour neutre */
+}
+
+.negative {
+    border-bottom: 4px solid #F44336; /* Rouge pour négatif */
+}
